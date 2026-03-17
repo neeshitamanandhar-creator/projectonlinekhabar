@@ -1,0 +1,302 @@
+:root{
+    background-color:whitesmoke;   
+}
+.container{
+/*background-color: rgb(80, 239, 239);*/
+display: flex;
+flex-direction: row;
+width: 80;
+align-items: center;
+margin: auto;
+justify-content: space-between
+}
+.rightcontainer {
+/*background-color: aquamarine;*/
+}
+.leftcontainer{
+    /* background-color: blue; */
+    display: flex;
+flex-direction: column;
+}
+.navbar{
+background-color: #2260BF;
+color: #2260BF;
+}
+.navbar ul {
+    display: flex;
+}
+.navbar li {
+font-family:'Courier New', Courier, monospace;
+font: size 16px;
+font-weight: bold;
+  color: white;
+  padding: 0 15px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.rightnavbar{
+    display: flex;
+    justify-content: end;
+    margin-top: -50px;
+    padding: 10px;
+}
+/* 
+.textbox {
+    font-family: 'Times New Roman', Times, serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: 
+    'slnt' 0,
+    'CRSV' 0.5,
+    'ELSH' 0,
+    'ELXP' 0;
+} */
+.firstimage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    gap: 10px;
+
+}
+.avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.votes {
+    color: green;
+    font-weight: 600px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.date {
+  font-family: "Iosevka Charon", monospace;
+  font-weight: 700;
+  font-style: normal;
+}
+.bar {
+   background-color: rgb(25, 156, 216);
+    width: 10px;
+    height: 10px;
+    padding: 8px;
+    margin-top: 8px;
+}
+.electiontable  {
+    width: 100vw;
+    height: 10vh;
+    border-collapse: collapse;
+}
+.electiontable th,
+.electiontable td{
+    padding: 12px;
+    border-bottom: 5px;
+    align-items: left;
+
+}
+.electiontable th{
+    background-color: rgb(234, 211, 211);
+}
+.newnavbar {
+    color: rgb(35, 32, 32);
+}
+.newnavbar ul {
+    display: flex;
+}
+.newnavbar li {
+font-family:'Courier New', Courier, monospace;
+font: size 16px;
+font-weight: bold;
+padding: 0 15px;
+margin-top: 10px;
+display: flex;
+flex-direction: row;
+}
+.profile {
+    width:65px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.airplane {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.Fuel {
+  width: 50px;
+    height: 50px;
+    border-radius: 50%;   
+}
+
+.politics {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;   
+}
+
+.portrait {
+       width: 50px;
+    height: 50px;
+    border-radius: 50%;   
+}
+.politicsimg {
+      width: 50px;
+    height: 50px;
+    border-radius: 50%; 
+}
+ .newshead {
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 5px;
+     margin: auto;
+     width: 140px;
+     font-size: larger;
+ }
+ .paranews {
+    font-weight: 600;
+     text-align: center;
+ }
+  .paratext {
+    text-align: center;
+  }
+  .Advertise {
+   display: flex;
+flex-direction: row;
+width: 80;
+align-items: center;
+margin: auto;
+justify-content: center; 
+  }
+  .ad-text {
+    text-align: center;
+  }
+  .ad-content {
+    text-align: center;
+    font-weight: 400;
+  }
+  .rightdata {
+    font-weight: 900;
+    font-size: xx-large;
+    text-align: center;
+  }
+  .righttext {
+    text-align: center;
+  }
+  .reporthead {
+    color: blue;
+  }
+  .text-report {
+    text-align: center;
+    padding: 15px;
+    font-weight: 700;
+    top: -320px;
+     
+  }
+  .content-report {
+    text-align: center;
+    padding: 15px;
+    font-weight: 400;
+    top: -300px; 
+  }
+.congress {
+     width: 60px;
+    height: 60px;
+    border-radius: 100%;
+}
+.secondimage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    gap: 10px;
+}
+.sun {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;   
+}
+.thirdimage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    gap: 10px;
+}
+.secondbar {
+    background-color: rgb(144, 236, 86);
+    width: 10px;
+    height: 10px;
+    padding: 8px;
+    margin-top: 8px;
+}
+
+.thirdbar {
+    background-color: rgb(241, 112, 73);
+    width: 10px;
+    height: 10px;
+    padding: 8px;
+    margin-top: 8px;
+}
+.PM{
+  width: 100%;
+  height: auto;
+  display: block;
+    }
+    .debt{
+      width: 100%;
+  height: auto;
+  display: block;  
+    }
+  .anu{
+    width: 100%;
+  height: auto;
+  display: block; 
+  }  
+  .gas{
+    width: 100%;
+  height: auto;
+  display: block; 
+  }
+  .hove {
+  display: flex;
+  gap: 20px;
+  width: 90%;
+  margin: 30px auto;
+}
+
+
+.left {
+  flex: 2;
+}
+
+.big-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.big-card img {
+  width: 40%;
+  /* height: 100%; */
+  transition: 0.5s;
+}
+
+/* ZOOM EFFECT */
+.big-card:hover img {
+  transform: scale(1.1);
+}
+
+/* OVERLAY */
+.overlay {
+  position: absolute;
+  bottom: 0;
+  color: white;
+  padding: 20px;
+  background: linear-gradient(to top, rgba(0,0,0,0.7), transparent);
+}
+
